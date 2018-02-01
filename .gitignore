@@ -1,0 +1,23 @@
+# Configuration files
+# Be extra careful with secrets
+*.yml
+secrets.yml
+
+# Python files
+*.pyc
+__pycache__/
+/env*/
+/venv*/
+
+# IDE files
+~*
+*.swp
+/.idea/
+
+# Distribution and test files
+*.egg-info/
+*.whl
+/.tox/
+
+# Log files
+/*.log
